@@ -1,0 +1,28 @@
+/* ImageCarousel.css */
+.carousel-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent overflow */
+  }
+  #maintext{
+    color:rgb(240, 14, 14);
+    font: size 60rem;;
+  }
+  
+  .image-container {
+    width: 100vw; /* Adjust width as needed */
+    height: 100vh; /* Adjust height as needed */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    transition: transform 0.5s ease; /* Smooth transition */
+  }
+  
+  

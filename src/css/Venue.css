@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to right, #f0f4f8, #e0e7ff); /* Light gradient background */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a clean font */
+}
+
+.container {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.first-heading-text {
+    margin-bottom: 20px; /* Space below the heading text */
+}
+
+.br-venues {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flex layout for list items */
+    justify-content: center; /* Center list items */
+    margin-bottom: 20px; /* Space below the venues list */
+}
+
+.br-venues li {
+    margin: 0 15px; /* Space between list items */
+}
+
+.br-venues li a {
+    font-size: 1.2rem; /* Font size for venue links */
+    color: #333; /* Dark gray color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.br-venues li a:hover {
+    color: #ce5c10; /* Change color on hover */
+}
+
+.desti-heading {
+    text-align: center; /* Center the heading for images */
+    font-weight: bold; /* Bold text */
+    font-size: 1.5rem; /* Increase font size for the destination heading */
+    margin-top: 10px; /* Space above the heading */
+    color: #333; /* Dark gray color */
+}
+
+/* Added styles for the images */
+.col-lg-4 {
+    display: flex; /* Use flexbox for the column layout */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+.img-responsive {
+    width: 100%; /* Make images responsive */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 8px; /* Optional: add some border radius */
+}

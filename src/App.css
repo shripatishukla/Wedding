@@ -1,0 +1,5 @@
+/* App.css */
+body {
+  margin: 0; /* Remove default body margin */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}

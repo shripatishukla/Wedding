@@ -1,0 +1,14 @@
+.contact-details {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    padding: 20px; /* Padding inside the contact details */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 500px; /* Limit width */
+    margin: 0 auto; /* Center the contact details */
+  }
+  
+  .contact-details p {
+    font-size: 1.2rem; /* Font size for the paragraphs */
+    color: #333; /* Dark gray color for text */
+  }
+  

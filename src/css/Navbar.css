@@ -1,0 +1,65 @@
+html {
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 15px 30px; /* Increased padding for a more spacious feel */
+  width: 100vw; /* Full width of the viewport */
+  font-size: 20px; /* Adjusted font size for readability */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: fixed; /* Keep navbar fixed at the top */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar-brand {
+  text-align: center; /* Center text within the brand */
+  font-size: 30px; /* Brand font size */
+  font-weight: bold; /* Make brand text bold */
+  color: #333; /* Dark color for text */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-brand:hover {
+  color: #ce5c10; /* Change color on hover for a subtle effect */
+}
+
+.image-container {
+  position: relative;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  filter: brightness(0.8); /* Slightly darken the image for better text contrast */
+}
+
+.text-overlay {
+  font-family: 'Dancing Script', cursive; 
+  position: absolute;
+  top: 50%; /* Position in the middle vertically */
+  left: 50%; /* Position in the middle horizontally */
+  transform: translate(-50%, -50%); /* Adjust to truly center */
+  color: white; /* Text color */
+  font-size: 3rem; /* Text size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for readability */
+  text-align: center; /* Center the text */
+  max-width: 80%; /* Limit the width for better text alignment */
+  line-height: 1.2; /* Improve line spacing */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+      font-size: 18px; /* Smaller font size for mobile */
+  }
+
+  .text-overlay {
+      font-size: 2rem; /* Smaller text for mobile */
+  }
+}
